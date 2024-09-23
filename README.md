@@ -1,7 +1,7 @@
-# Test de scène (PBRT 4, MTI882, Mitsuba 3)
+# Test de scène (PBRT 4, MTI870, Mitsuba 3)
 
 Ce référentiel Git contient la scène de test pour les moteurs de rendu suivants :
-- MTI882 (C++ ou Rust)
+- MTI870 (C++ ou Rust)
 - PBRT 4 (C++)
 - Mitsuba 3 (Python) _(* recommandé pour la comparaison)_
 
@@ -40,13 +40,13 @@ Les parametres:
 python ./script/merge_materials.py ./test00001.json ./script/modified.json out.json
 ```
 
-## MTI882
+## MTI870
 
 Pour éditer le matériau, ouvrez `test00001.json` et éditez le premier matériau (ligne 19) nommé "case".
 
-Rendu MTI882: 
+Rendu MTI870: 
 
-![Diffuse from MTI882](images/mti882_diffuse.png)
+![Diffuse from MTI870](images/mti882_diffuse.png)
 
 ## PBRT-v4
 
